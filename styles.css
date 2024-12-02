@@ -13,3 +13,54 @@ body {
   background-color: #000000;
   color: #9ad79b;
 }
+header {
+  position: fixed;
+  padding: 20px;
+  width: 100%;
+  height: 100px;
+  z-index: 10;
+  border: 2px dotted #9ad79b;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+}
+main {
+  position: relative;
+  top: 100px;
+  z-index: 0;
+}
+.content {
+  position: absolute;
+  width: 100%;
+  border: 2px dotted #9ad79b;
+  margin-top: 10px;
+}
+.sidebar {
+  position: absolute;
+  padding: 20px;
+  top: 85px;
+  right: 25px;
+  margin-top: 20px;
+  border: 2px dotted #9ad79b;
+}
+.features {
+  position: absolute;
+  top: 400px;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  border: 2px dotted #9ad79b;
+}
+footer {
+  position: absolute;
+  top: 646px;
+  bottom: 0px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  border: 2px dotted #9ad79b;
+}
+footer > p {
+  padding: 20px;
+}
